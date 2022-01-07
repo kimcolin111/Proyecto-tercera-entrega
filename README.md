@@ -51,8 +51,11 @@ Añade aquí descripciones genéricas de las funciones, que luego debes acompañ
 * **<funcion 3>**: suma_total_duracion(): Esta finción se encarga de sumar la duración en minutos de todos los datos del csv.
 * **<funcion 4>**: maxima_duracion(): Esta función se encatrga de mostrar cunto dura la pelicula de maxima duración del csv.
 * **<funcion 5>**: ordenar_por_duracion(minutos): Esta finción se encarga de ordenar los datos de menor a mayor si su duración es mayor a la que hemos indicado. 
-* **<funcion 6>**:
-* **<funcion 7>**:
+* **<funcion 6>**: diccionario(registros): Diccionario que agrupa los valores segun una propiedad.
+* **<funcion 7>**: contador_peliculas_año(registros): Un diccionario que asigna a cada año el número de peliculas realizadas en el mismo.
+* **<funcion 8>**: contador_duracion_peliculas_año(registros): Devuelve un diccionario con los valores maximos de las propiedades numericas.
+* **<funcion 9>**: funcion_14(registros, n): Devuelve un diccionario que contiene los n mayores valores de cada propiedad.
+* **<funcion 10>**: grafica(registros): crea una grafica donde el eje x son los años y el eje y las peliculas producidas ese año.
 
 ### \<test modulo 1\>
 
@@ -64,12 +67,14 @@ Añade aquí descripciones genéricas de las funciones, que luego debes acompañ
 * **<test funcion 6>**: maxima_duracion(datos_netflix): Muestra la película de maxima duracion del csv.
 * **<test funcion 7>**:print(ordenar_por_duracion(datos_netflix)): Ordena las series según su duración de menor a mayor.
 * **<test funcion 8>**: print(diccionario(datos_netflix)): Crea un diccionario con el que consultar los datos del csv para asignar las peliculas producidas por cada país o serie de paises.
-* **<test funcion 9>**: contador_apariciones_distrito(registros): Crea unos dicionarios que cuentan el número de peliculas por cada año.
-* **<test funcion 10>**: 
-* **<test funcion 11>**: 
+* **<test funcion 9>**: print(contador_peliculas_año(datos_netflix))): Crea unos dicionarios que cuentan el número de peliculas por cada año.
+* **<test funcion 10>**: print(contador_duracion_peliculas_año(datos_netflix)): Demuestra en la pantalla el número maximo de las propiedades numericas.
+* **<test funcion 11>**: print(funcion_14(datos_netflix, 3)): Demuestra en pantalla los 3 mayores valores de cada propiedad.
+* **<test funcion 11>**: grafica(datos_netflix): reprecenta la gracica creada anteriormente.
 
 ### \<modulo 2\>
 
 * **<funcion 1>**: Descripción de la función 1.
 * **<funcion 2>**: Descripción de la función 2.
 * ...
+
